@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+    <script src="/js/script.js"></script> 
+    <link rel="icon" href="/images/africa.png" type="img/jpg">
 </head>
 <body>
-    
+<section class="page">  
+    <h1>AKAN NAMING SYSTEM</h1>
+    <p>Like many african  communities, naming children is not  done  randomly.Names are chosen arcording to  gender, time of birth, place of birth or basically anything that  can influence</p>
+        <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+            <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
+</section>
+<section id= "form">
+    <form class="form" onsubmit="return getAkanName()">
+                <label for="year-of-birth">
+                  Year:
+                  <input id="year-input" type="number" name="year-of-birth" placeholder="YEAR" value="" required>
+                </label>
+                <label for="month-of-birth">
+                  Month:
+                  <input id="month-input" type="number" name="month-of-birth" placeholder="MONTH" value="" required>
+                </label>
+                <label for="day-of-birth">
+                  Day:
+                  <input id="day-input" type="number" name="day-of-birth" placeholder="DAY" value="" required>
+                </label>
+                <br>
+                <label for="gender">
+                  <p>Select your gender: </p>
+                  Male
+                  <input id="male-input" type="radio" name="gender" value="male" required>
+                  Female
+                  <input id="female-input" type="radio" name="gender" value="female" required>
+      
+                </label>
+                <br><br>
+                <input id="get-name" type="submit" name="" value="Generate name">
+                <br><br> 
+    </form> 
+        <form onsubmit="return clearInput()">
+            <input class="clear" type="submit" value="Clear input">
+        </form>
+            <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
+                <p id="result"></p>
+</section>     
 </body>
 </html>

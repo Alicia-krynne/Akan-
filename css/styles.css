@@ -1,0 +1,24 @@
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page{
+  width: 600px;
+  border: 5px solid rgb(128, 109, 0);
+  padding: 50px;
+  margin: 20px;
+
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(/images/pastel.jpg);
+    background-repeat: repeat-x;
+    color: rgb(10, 9, 9);
+    font-size: 17px;
+    font-style: normal;
+    text-align: center;
+    float:left;
+}
