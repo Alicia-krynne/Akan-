@@ -3,14 +3,13 @@ This is a webpage that calculates the day of the week in which you were born and
 the Akan  is a ghanian tradition of naming people based on the day of the week they were born in .Different Genders have  different names.
 
 # **AUTHOR**
-{Alicia-krynne]https://github.com/Alicia-krynne
+[Alicia-krynne]https://github.com/Alicia-krynne
 
 # Set up  Instructions
 to  set up  the  app, simply  click on  link  provided and it  shall be  done.
   
  # Screenshot of Webpage
-A screenshot of the page shall  follow swiftly.
-  
+![../images/akanpage.png]
 
   ## License info
 MIT License
