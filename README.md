@@ -10,7 +10,7 @@ To set up  the  app, simply  click on  link  provided and it  shall be  done.
 [LINK TO AKAN NAME GENERATOR] https://alicia-krynne.github.io/Akan-/
   
  # SCREENSHOTS OF THE PAGE 
-![screenshot](http://url/to/akanpage.png)
+![screenshot](../images/akan.jpg)
 
 ## LANGUAGES USED TO  MAKE THE PAGE:
 1. HTML
