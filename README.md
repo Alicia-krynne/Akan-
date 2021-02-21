@@ -9,7 +9,12 @@ the Akan  is a ghanian tradition of naming people based on the day of the week t
 to  set up  the  app, simply  click on  link  provided and it  shall be  done.
   
  # Screenshot of Webpage
-![../images/akanpage.png]
+![screenshot](http://url/to/akanpage.png)
+
+## Languages  used
+1. HTML
+2. CSS
+3. JAVA SCRIPT
 
   ## License info
 MIT License
