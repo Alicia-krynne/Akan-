@@ -5,18 +5,21 @@ the Akan  is a ghanian tradition of naming people based on the day of the week t
 # **AUTHOR**
 [Alicia-krynne]https://github.com/Alicia-krynne
 
-# Set up  Instructions
-to  set up  the  app, simply  click on  link  provided and it  shall be  done.
+# HOW TO ACCESS THE PAGE 
+To set up  the  app, simply  click on  link  provided and it  shall be  done.
+[LINK TO AKAN NAME GENERATOR] https://alicia-krynne.github.io/Akan-/
   
- # Screenshot of Webpage
+ # SCREENSHOTS OF THE PAGE 
 ![screenshot](http://url/to/akanpage.png)
 
-## Languages  used
+## LANGUAGES USED TO  MAKE THE PAGE:
 1. HTML
 2. CSS
 3. JAVA SCRIPT
+## KNOWN BUGS
+ there is a high chance the  calculation may not work on the second try. my  team , aka me , are working on it to make sure its smooth sailing.
 
-  ## License info
+  ## LICENSE INFORMATION
 MIT License
 
 Copyright (c) 2021 Alicia-krynne
@@ -39,3 +42,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 *Alicia-krynne*
+## CONTACTS 
+ reach  me  via  email on :alicakrynne@outlook.com
+ 
