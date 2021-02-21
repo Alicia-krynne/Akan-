@@ -1,5 +1,5 @@
 <script>
-function getAkanName () {
+function return getAkanName () {
   let yearOfBirth = document.getElementById("year-input").value;
   let monthOfBirth = Number(document.getElementById("month-input").value);
   let dayOfBirth = Number(document.getElementById("day-input").value);
@@ -49,7 +49,8 @@ function getAkanName () {
   let monthValid = monthValidator();
   let dayValid = dayValidator();
 
-  //formula to determine day of birth (Sunday = 1, Monday = 2). this  formular  works best  when each  part is done separately, i  shall use the  functions Math.floor and .slice to  make it executable wth no  errors
+  //formula to determine day of birth (Sunday = 1, Monday = 2). this  formular  works best  when each  part is done separately, i  shall use the  functions Math.floor and .slice to  make it executable wth no  errors.
+// it has errors the mathematical  fomular  wont  run.fix the bug.
   let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
           ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
 
