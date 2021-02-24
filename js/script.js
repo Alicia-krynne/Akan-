@@ -12,5 +12,5 @@ akanForm.addEventListener("submit",(e)=> {
             document.getElementById("message").innerHTML="Akan name is" + femaleNames[dateEntered.getDay()];
      }
  
-    }
+    });
 
