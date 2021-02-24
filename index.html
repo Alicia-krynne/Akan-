@@ -6,40 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN</title>
     <link rel="stylesheet" href="/css/styles.css"> 
-    <script src="/js/script.js"></script> 
+    <script src="/js/bootstrap.js"></script>
+    
     <link rel="icon" href="/images/africa.png" type="img/jpg">
 </head>
+<script src="/js/script.js"></script> 
 <body>
-<section class="page">  
-    <h1>AKAN NAMING SYSTEM</h1>
-    <p>Like many african  communities, naming children is not  done  randomly.Names are chosen arcording to  gender, time of birth, place of birth or basically anything that  can influence</p>
-        <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-            <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
-</section>
-<section class= "form">
-    <form id="akanForm" onsubmit="return getAkanName()">
-               
-                <label for="date-of-birth">
-                  date-of-birth:
-                  <input id="date" type="date" name="date" placeholder="DATE" value="" required>
-                </label>
-                
-                <label for="pick your gender">
-                  <p>Select your gender: </p>
-                  <input type="radio" id="male" name="gender" value="male">
-                  <label for="male">Male</label><br>
-                  <input type="radio" id="female" name="gender" value="female">
-                  <label for="female">Female</label><br>
-                </label>
-                <br><br>
-                <input id="get-name" type="submit" name="" value="Generate name">
-                <br><br> 
-    </form> 
-        <form onsubmit="return clearInput()">
-            <input class="clear" type="submit" value="Clear input">
-        </form>
+<div class="container">
+    <section class="page">  
+        <h1>AKAN NAMING SYSTEM</h1>
+        <p>Like many african  communities, naming children is not  done  randomly.Names are chosen arcording to  gender, time of birth, place of birth or basically anything that  can influence</p>
+            <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
+    </section>
+    <section class= "form">
+        <form id="akanForm">
+            <div class="box">
+                    <label for="date-of-birth">enter Birthday</label><br>
+                    <input id="date" type="date" name="date" placeholder="DATE" value="" required>
+            </div>
+            <div class="box">     
+                    <label for="pick your gender"> select your gender </label>
+                    <select name="gender" id="gender"> 
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    </select>
+            </div>  
+            <div class="full">
+            <button type="submit">submit</button>
+            </div>          
+        </form>   
         <p id="message"></p>
-  
-</section>     
+    </section> 
+</div>
 </body>
 </html>
